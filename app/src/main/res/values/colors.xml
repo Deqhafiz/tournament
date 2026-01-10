@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#080c14</color>
+    <color name="white">#FFFFFF</color>
+    <color name="t_coin_gold">#f7931a</color>
+    <color name="t_coin_gold_light">#f9d342</color>
+    <color name="t_coin_gold_dark">#8a5a0f</color>
+</resources>

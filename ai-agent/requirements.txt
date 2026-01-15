@@ -1,0 +1,28 @@
+# AI Brain Dependencies
+groq>=0.4.0                    # Groq API for Llama 3 (cloud)
+ollama>=0.1.0                  # Ollama for local Llama 3
+
+# Memory System
+chromadb>=0.4.0                # Vector database for long-term memory
+sentence-transformers>=2.2.0   # For embeddings (used by ChromaDB)
+
+# Twitter Integration
+tweepy>=4.14.0                 # Twitter API v2
+
+# Crypto Wallet Integration
+web3>=6.0.0                    # Ethereum wallet
+solana>=0.30.0                 # Solana wallet
+solders>=0.18.0                # Solana types
+base58>=2.1.0                  # Base58 encoding for Solana keys
+
+# Utilities
+python-dotenv>=1.0.0           # Environment variable management
+requests>=2.31.0               # HTTP requests
+aiohttp>=3.9.0                 # Async HTTP (for future use)
+
+# Data & Logging
+pydantic>=2.0.0                # Data validation
+python-json-logger>=2.0.0      # JSON logging
+
+# Optional: Price APIs
+pycoingecko>=3.1.0             # CoinGecko API for crypto prices (optional)

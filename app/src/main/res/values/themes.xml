@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.TIKTOP" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/t_coin_gold</item>
+        <item name="colorPrimaryVariant">@color/t_coin_gold_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- Customize window background -->
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+</resources>

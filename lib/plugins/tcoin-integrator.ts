@@ -115,9 +115,10 @@ export class TCoinIntegrator {
       // Simulate mining
       await new Promise(resolve => setTimeout(resolve, 5000));
 
+      const success = Math.random() > 0.5;
       const result: MiningResult = {
-        success: Math.random() > 0.5,
-        reward: result.success ? Math.random() * 10 : 0,
+        success,
+        reward: success ? Math.random() * 10 : 0,
         blockHash: this.generateBlockHash(),
         difficulty: Math.floor(Math.random() * 1000000),
       };
